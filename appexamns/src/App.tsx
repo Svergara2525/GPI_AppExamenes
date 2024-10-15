@@ -1,9 +1,9 @@
 import React from 'react';
 
-const App: React.FC = () => {
+export const App: React.FC = () => {
     return (
         <div>
-            hola que tal
+            ventana1
         </div>
     );
 }
