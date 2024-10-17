@@ -1,0 +1,138 @@
+/* LoggingFront.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #131417;
+}
+
+.login-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    gap: 0px;
+    padding: 0 180px;
+}
+
+.login-image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start; /* Alinea el logo al borde izquierdo */
+    align-items: center;
+    padding-left: 0px; /* Ajuste opcional para separar la imagen del borde */
+}
+
+.login-image img {
+    width: 70%;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+.login-form-container {
+    flex: 1;
+    background-color: #5a5f73;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+}
+
+h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-input {
+    padding: 12px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-button {
+    background-color: #d1d1d1; /* Color grisáceo blanquecino por defecto */
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-button:hover {
+    background-color: #0ebeff; /* Color azul al pasar el ratón */
+}
+
+.social-login {
+    margin-top: 20px;
+}
+
+.social-login p {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-btn {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.social-btn.google {
+    color: #ea4335;
+}
+
+.social-btn.facebook {
+    color: #4267b2;
+}
+
+.social-btn.apple {
+    color: black;
+}
+
+.social-btn:hover {
+    background-color: #f0f0f0;
+}
+
+.signup-options {
+    margin-top: 20px;
+}
+
+.signup-options p {
+    color: #fff;
+}
+
+.signup-options a {
+    color: #0ebeff;
+    text-decoration: none;
+}
+
+.signup-options a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}

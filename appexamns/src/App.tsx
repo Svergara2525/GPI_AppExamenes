@@ -1,9 +1,10 @@
 import React from 'react';
+import LoggingFrontSimul from './Logging/LoggingFrontSimul'; // Importar LoggingFront
 
 export const App: React.FC = () => {
     return (
         <div>
-            ventana1
+            <LoggingFrontSimul /> {/* Mostrar la pantalla de Logging */}
         </div>
     );
 }
